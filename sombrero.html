@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product One - Sombrero</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #EFEBE1;
+            color: #485040;
+        }
+        header {
+            background-color: #9DA48E;
+            color: #EFEBE1;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            padding: 2em;
+            text-align: center;
+        }
+        .product-gallery {
+            display: flex;
+            justify-content: center;
+            overflow-x: auto;
+            gap: 10px;
+            padding: 1em;
+            scroll-snap-type: x mandatory;
+        }
+        .product-gallery img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            scroll-snap-align: start;
+
+        }
+        .product-description {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #EFEBE1;
+            color: #9DA48E;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sombrero</h1>
+    </header>
+    <main>
+        <div class="product-gallery">
+            <img src="sombrerotacana.jpeg" alt="Sombrero Image 1">
+            <img src="sombrerodos.jpeg" alt="Sombrero Image 2">
+            <img src="sombrero3.jpeg" alt="Sombrero Image 3">
+        </div>
+        <div class="product-description">
+            <h2>Informacion del producto:</h2>
+            <p>Un sombrero Boliviano de calidad combinado con el diseño Tacana.</p>
+            <p>Para hacer un pedido, visite la pagina de "Contactos" y mandenos un mensaje por Facebook, Instagram, o correo electronico. Por favor mencione si el pedido es para el sombrero entero, o solo el diseño Tacana.</p>
+            <p>Cada diseño es diferente y siempre hecho a mano, asi que tu pedido sera un producto unico!</p>
+            <p>Precio (Sombrero con diseño): 270 bs </p>
+            <p>Precio (Diseño solamente): 100 bs</p>
+        </div>
+    </main>
+</body>
